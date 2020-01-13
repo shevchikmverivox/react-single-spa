@@ -20,7 +20,7 @@ registerApplication(
 registerApplication(
   'react2', 
   () => import('./src/react2/react2.app.js'),
-  (location) => location.pathname === "/react2"
+  (location) => location.pathname.startsWith("/react2")
 );
 
 start();

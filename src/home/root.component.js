@@ -34,6 +34,7 @@ const AnimationExample = () => (
             <NavLink to="/rgb/240/98/146">Pink</NavLink>
           </ul>
           <div style={styles.content}>
+            <p>TOPKEK1</p>
             <TransitionGroup>
               {/* no different than other usage of
                 CSSTransition, just make sure to pass

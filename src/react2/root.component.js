@@ -25,7 +25,7 @@ const React2 = () => (
           <Route
             exact
             path="/"
-            render={() => <Redirect to="/hsl/10/90/50" />}
+            render={() => <Redirect to="/hsl/0/0/0" />}
           />
           <ul style={styles.nav}>
             <NavLink to="/hsl/0/0/0">black</NavLink>
@@ -34,6 +34,7 @@ const React2 = () => (
             <NavLink to="/rgb/240/98/146">Pink</NavLink>
           </ul>
           <div style={styles.content}>
+            <p>TOPKEK</p>
             <TransitionGroup>
               {/* no different than other usage of
                 CSSTransition, just make sure to pass
